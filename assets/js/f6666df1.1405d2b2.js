@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9802],{649:(e,t,n)=>{n.r(t),n.d(t,{default:()=>i});var s=n(7676),l=n(7294);const i=function(){return l.createElement(s.Z,{title:"Kiril's apps"},l.createElement("h1",null,"Coming soon..."))}}}]);
