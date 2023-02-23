@@ -16,7 +16,7 @@ function HomepageHeader() {
       <div className="container">
         <div className="avatar avatar--vertical">
           <img
-            className="avatar__photo avatar__photo--xl"
+            className={clsx('avatar__photo', styles.largeAvatarPhoto)}
             src="https://github.com/tihawk.png" />
         </div>
         <br/>
