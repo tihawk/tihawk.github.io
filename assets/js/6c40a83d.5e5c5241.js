@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2476],{4026:(e,l,t)=>{t.r(l),t.d(l,{default:()=>f});var s=t(3143),n=t(7294);const f=function(){return n.createElement(s.Z,null,n.createElement("div",{style:{height:"100vh",display:"flex"}},n.createElement("iframe",{scrolling:"no",style:{flex:1},src:"/flowfield/flowfield.html"})))}}}]);
