@@ -1,0 +1,57 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+/* :root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+} */
+:root {
+  --ifm-color-primary: #A63AA2;
+  --ifm-color-primary-dark: #883085;
+  --ifm-color-primary-darker: #792A76;
+  --ifm-color-primary-darkest: #6A2567;
+  --ifm-color-primary-light: #B540AF;
+  --ifm-color-primary-lighter: #BF4AB9;
+  --ifm-color-primary-lightest: #C559BF;
+  --ifm-color-secondary: #7647C2;
+  --ifm-color-secondary-dark: #6C3DB8;
+  --ifm-color-secondary-darker: #6338A8;
+  --ifm-color-secondary-darkest: #5A3399;
+  --ifm-color-secondary-light: #8257C7;
+  --ifm-color-secondary-lighter: #8D66CC;
+  --ifm-color-secondary-lightest: #9875D1;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #BF4AB9;
+  --ifm-color-primary-dark: #B540AF;
+  --ifm-color-primary-darker: #A63AA1;
+  --ifm-color-primary-darkest: #973592;
+  --ifm-color-primary-light: #C559BF;
+  --ifm-color-primary-lighter: #C559BF;
+  --ifm-color-primary-lightest: #C559BF;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+/* [data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+} */
