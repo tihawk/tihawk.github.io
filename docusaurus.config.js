@@ -41,6 +41,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: 'G-EZPFGQ1WWX'
+        },
         docs: false,
         // {
         //   sidebarPath: require.resolve('./sidebars.js'),
