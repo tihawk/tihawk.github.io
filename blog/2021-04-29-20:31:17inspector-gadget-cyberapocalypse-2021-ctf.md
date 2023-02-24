@@ -47,3 +47,7 @@ We can now easily deduce, that our flag is
 ```
 CHTB{1nsp3ction_c4n_r3ve4l_us3full_1nf0rm4tion}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

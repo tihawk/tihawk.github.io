@@ -167,3 +167,7 @@ After a bit, this will spit our flag out
 ```
 CHTB{Th3_3xTr4_l3v3l_4Cc3s$_c0nTr0l}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

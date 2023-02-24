@@ -123,3 +123,7 @@ By the end, we will get the flag in a response
 ```sh
 CHTB{3v3n_4l13n5_u53_3m0j15_t0_c0mmun1c4t3}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

@@ -400,3 +400,6 @@ Next time we will see what kind of statistical analysis we can do on those data,
 
 And [here](https://github.com/tihawk/vicsek_timedelay) you can see the full code of the simulator, together with the analysis part, and a script to run it, as well as a **Jupyter notebook** for visualising the analysis. We will discuss all of these in the next post.
 
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

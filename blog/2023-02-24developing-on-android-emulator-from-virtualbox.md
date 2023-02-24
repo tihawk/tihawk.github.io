@@ -105,3 +105,7 @@ kblagoev@deva:~/Android/Sdk/platform-tools$
 And since I've used a bridged network, I can also easily do network connections between the two devices, which can be quite useful in some cases. So I recommend it, unless you have your own way of doing it.
 
 Now you can develop! Have fun!
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

@@ -75,3 +75,7 @@ So, we get the flag just like that
 ```sh
 CHTB{3nc0d1ng_n0t_3qu4l_t0_3ncrypt10n}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

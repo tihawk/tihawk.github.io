@@ -71,3 +71,7 @@ Easy, we got our flag, and it's
 ```sh
 CHTB{3xtr4t3rR3stR14L5_VS_hum4n5}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

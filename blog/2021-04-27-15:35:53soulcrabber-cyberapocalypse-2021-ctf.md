@@ -125,4 +125,6 @@ and we get our flag
 CHTB{mem0ry_s4f3_crypt0_f41l}
 ```
 
-Thanks for reading!
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

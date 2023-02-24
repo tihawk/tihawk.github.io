@@ -225,6 +225,10 @@ Entanglement is the final purely-quantum concept that we needed to tackle. Now w
 
 [^4]: Both notations are really showing the same thing, it's just that the state-vector shows the complex amplitude of that system state, while the probability table squares it to get the probability associated with that system state $\text{State-vector = } \begin{bmatrix} a_{00} \\ a_{01} \\ a_{10} \\ a_{11} \end{bmatrix}  =  \begin{bmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}}  \\ 0 \\ 0 \end{bmatrix} \text{,}$ where $a$ is the complex amplitude of each state of the two qubits _q1_,_q0_ (see table above).
 
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>
+
 ---
 |probability | system after measured (q1,q0) |
 |-------------------------------|----|

@@ -73,3 +73,7 @@ And the manual solution reads something like this:
 As far as tools are concerned, you can discover what works best for you, but I recommend a note-taking tool which can create graphs of your knowledge map. It's so much better, when you can create an overview of interconnecting nuggets of knowledge, and see the context from a bird's perspective.
 
 Having different information nuggets stored in an app also allows for their reuse, facilitating **contextual serendipity**. A concept I would like to discuss further as well.
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

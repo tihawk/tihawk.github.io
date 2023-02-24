@@ -58,3 +58,7 @@ Now, what did we learn by (hopefully) reading through this?
 * If we have a system which depends in complex ways on a multitude of knobs and factors, we can combine those effects into a single parameter. This allows us to scale our system in whatever way we want, and still have our results for a random system be universally applicable. This is called the scaling hypothesis.
 
 As a taste of what's to come, [next](/blog/further-introduction-to-how-do-birds-flock-and-insects-swarm/) we'll be looking into how the simulated data using the Vicsek model suggests that maybe the delay between Alice's turn and Bob's reaction affects the system.  [Then](/blog/simulating-the-vicsek-model-how-do-birds-flock-and-insects-swarm/) we'll dive into the technical aspect of simulating these flocks and swarms. And then maybe we'll review what the analysis of said data tells us.
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

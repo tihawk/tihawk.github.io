@@ -81,3 +81,7 @@ And so, we find our flag
 Key:  69 Line:  060d11073e2b76762129761a742b1a711a2d713c363171262e38
 Flag:  CHTB{n33dl3_1n_4_h4yst4ck}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

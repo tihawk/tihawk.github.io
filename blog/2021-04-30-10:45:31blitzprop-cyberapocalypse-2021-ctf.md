@@ -96,3 +96,7 @@ Now that we have executed our command, we simply go ahead and curl that flag fil
 ```
 CHTB{p0llute_with_styl3}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

@@ -236,3 +236,7 @@ Thanks for reading!
 [^1]: In contrast to global phase, which is the case when all qubits in the system have the same phase, such that it can be factored out from the observation calculation. Systems with a global phase are physically identical, while systems with relative phase are not. They might still be measured the same way in most cases, but this is simply because measurement in quantum computers usually takes place along the same axis, independent of phase.
 
 [^2]: In Quantum Information, it can be said that this relative phase carries information about the **coherence** of the system.
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

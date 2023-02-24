@@ -121,3 +121,7 @@ This gives us the flag to be as follows
 Result: 0a68352e141d1152060003310c1d500b0d131d38124900003a52121a010900734b070c07543b45020c1d7f0213162b56144c1d111d0f074c043c06002c184e1b1f0b7f070d150c1c541117543c13111515064b1e1c
 Result: CHTB{stream_ciphers_with_reused_keystreams_are_vulnerable_to_known_plaintext_attacks}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

@@ -81,3 +81,7 @@ With this in mind, we simply send `file:///flag` to our POST endpoint at `/api/c
 ```
 CHTB{f1le_r3trieval_4s_a_s3rv1ce}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

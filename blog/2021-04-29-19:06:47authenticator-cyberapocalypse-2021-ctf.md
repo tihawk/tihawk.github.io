@@ -232,3 +232,7 @@ Flag:
 ```
 CHTB{th3_auth3nt1c4t10n_5y5t3m_15_n0t_50_53cur3}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

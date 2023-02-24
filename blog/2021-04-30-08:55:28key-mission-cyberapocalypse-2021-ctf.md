@@ -175,3 +175,7 @@ With the flag now in plain sight
 ```
 CHTB{a_plac3_fAr_fAr_away_fr0m_earth}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

@@ -152,3 +152,7 @@ And so, we get our flag
 Result: 0d27743012155b01155c027f1b41302955203114002413
 Result: CHTB{r3u53d_k3Y_4TT4cK}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

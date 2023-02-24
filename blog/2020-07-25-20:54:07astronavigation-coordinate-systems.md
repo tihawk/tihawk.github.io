@@ -83,4 +83,8 @@ The origin of this coordinate system is the centre of the celestial sphere, whic
 
 Well that's it! You now know the names of things. Now that you have an idea of what to look for, I will place the header image again, so you can look at it and search for the above mentioned terms. And next time I will go more in-depth into the measurement process - _the taking down of the stars_.
 
- [^1]: Stars are holes in the fabric of spacetime. You're welcome.
+[^1]: Stars are holes in the fabric of spacetime. You're welcome.
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

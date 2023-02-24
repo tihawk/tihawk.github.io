@@ -33,3 +33,7 @@ So the question arises - how do we solve our lack-of-inertia problem in the Vics
 3. Analyse that data, to see if it obeys the scaling hypothesis, and if the results are any closer to experiment than the ones of the standard Vicsek model
 
 So, this is what we will discuss in the upcoming posts. We will see what the model is like, and discuss how one goes around to write a simulator for this model. This will be a mostly coding related post, where we concentrate on the technical aspects of computer simulations and statistical analysis. Lastly, we will discuss our results - the physics of it all. This will be our conclusion on the matter, where we see what our model revealed about the world of collective behaviour of natural systems.
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

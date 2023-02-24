@@ -244,3 +244,7 @@ Which will spit out our flag
 ```sh
 CHTB{order_me_this_juicy_info}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

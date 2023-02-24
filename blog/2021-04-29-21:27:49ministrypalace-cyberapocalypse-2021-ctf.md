@@ -81,3 +81,7 @@ To directly get our flag as output
 ```
 CHTB{b4d_4li3n_pr0gr4m1ng}
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

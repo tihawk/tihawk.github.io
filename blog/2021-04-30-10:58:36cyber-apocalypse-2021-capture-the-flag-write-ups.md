@@ -101,3 +101,7 @@ A fun scripting challenge involving the automatic handling of `nc` based service
 [Input as a Service - Cyberapocalypse 2021 CTF](/blog/input-as-a-service-cyberapocalypse-2021-ctf/)
 
 `input()` in python2.x is scary by default
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

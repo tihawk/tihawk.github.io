@@ -94,3 +94,7 @@ table.sort((a, b) => a.distQPiOverQ - b.distQPiOverQ)
 And indeed, the most accurate fraction of $355/113$ is well a known relatively accurate approximation of $\pi$ such that $\pi \approx \boldsymbol{3.141592}92...$.
 
 This is a very elegant and simple way to find a fractional approximation given an irrational number. The remaining two algorithms are very similar, such that they use the same variables, but treat them differently. The concept is the same, so I will leave them for now, and you can check them out in the above mentioned paper, which you can find [here](https://arxiv.org/ftp/arxiv/papers/1807/1807.06284.pdf).
+
+import DonateCard from '@site/src/components/DonateCard';
+
+<DonateCard/>
