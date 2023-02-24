@@ -1,6 +1,7 @@
 ---
 slug: developing-on-android-emulator-from-virtualbox
 title: How to connect to an Android Emulator from VirtualBox
+description: Developing from a VM is great, but there's a problem when you have to run an emulator inside of it. My solution is to have two separate virtual machines running in VirtualBox on the host OS, and let them communicate using networking.
 authors: kiroki
 tags: [Coding, Programming, VMs, Android]
 ---
