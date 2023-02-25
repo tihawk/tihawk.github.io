@@ -17,6 +17,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 } */
 :root {
+  --ifm-font-family-base: "Times New Roman", Times, serif;
   --ifm-color-primary: #A63AA2;
   --ifm-color-primary-dark: #883085;
   --ifm-color-primary-darker: #792A76;
