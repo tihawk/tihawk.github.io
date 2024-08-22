@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7834],{3436:(e,t,l)=>{l.r(t),l.d(t,{default:()=>n});var s=l(1076),c=l(6540);const n=function(){return c.createElement(s.A,null,c.createElement("div",{style:{height:"100vh",display:"flex"}},c.createElement("iframe",{scrolling:"no",style:{flex:1},src:"/vicsek/vicsek.html"})))}}}]);
