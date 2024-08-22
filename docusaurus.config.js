@@ -9,7 +9,7 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Kiril P. Blagoev',
-  tagline: 'the result of contextual serendepity',
+  tagline: 'the result of contextual serendipity',
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
@@ -131,7 +131,7 @@ const config = {
               },
               {
                 label: 'LinkedIn',
-                href: 'https://linkedin.com/in/kiril-panayotov-blagoev-1bb409154/'
+                href: 'https://www.linkedin.com/in/kblagoev/'
               }
             ]
           },
