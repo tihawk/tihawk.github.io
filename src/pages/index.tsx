@@ -5,7 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import { FaGithub } from 'react-icons/fa'
-import { MdDevicesOther } from 'react-icons/md'
+import { MdDevicesOther, MdNewspaper } from 'react-icons/md'
 
 import styles from './index.module.css';
 
@@ -26,8 +26,8 @@ function HomepageHeader() {
           <Link
             style={{display: 'flex', alignItems: 'center'}}
             className="button button--info margin-right--lg button--lg"
-            to="/apps">
-            <MdDevicesOther/>&nbsp;Apps
+            to="/blog">
+            <MdNewspaper/>&nbsp;Blog
           </Link>
           <Link
             style={{display: 'flex', alignItems: 'center'}}

@@ -42,11 +42,16 @@ function AppsPage() {
           </div>
         </div>
         <div className="row">
-          <div className="col col--6">
+          <div className="col col--6 margin-bottom--lg">
             <AppCard name="PushFitnotes Desktop" description="Upload Fitnotes workouts to Garmin" tags={['windows', 'linux', 'free']} url="/push-fitnotes" />
           </div>
-          <div className="col col--6">
+          <div className="col col--6 margin-bottom--lg">
             <AppCard name="PushFitnotes Android" description="Upload Fitnotes workouts to Garmin, but from your phone" tags={['android', 'coming-soon']} url="/push-fitnotes-android" />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--6 margin-bottom--lg">
+            <AppCard name="Fitnotes2Fit CLI" description="A CLI tool for converting Fitnotes workouts into .fit files" tags={['cli', 'cross-platform', 'free']} url="https://github.com/tihawk/fitnotes2fit" />
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ tags: [Science, Physics, Computing, Quantum, Programming, Computer Science]
 2. [Quantum Programming - Abstraction level 1: Logic Gates](/blog/quantum-programming-abstraction-level-1-logic-gates/)
 3. [Quantum Programming - Abstraction level 2: State Machine and Algorithms](/blog/quantum-programming-abstraction-level-2-algorithms/)
 
-The invention of the personal computer, and the further development of the  [hundreds](https://en.wikipedia.org/wiki/List_of_programming_languages) of programming languages which utilise it has allowed us programmers to completely  **abstract** ourselves from the world of electrons flowing through solid matter, and further from the low level programming of turning gates and transistors on and off to produce binary data.
+The invention of the personal computer, and the further development of the [hundreds](https://en.wikipedia.org/wiki/List_of_programming_languages) of programming languages which utilise it has allowed us programmers to completely **abstract** ourselves from the world of electrons flowing through solid matter, and further from the low level programming of turning gates and transistors on and off to produce binary data.
 
 <!-- truncate -->
 
