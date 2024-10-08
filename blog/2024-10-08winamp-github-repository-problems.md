@@ -28,7 +28,7 @@ But GitHub is more than simply a place to host your git repository. It is also a
 
 If you were to peruse the code on the Winamp repository in the [first few days](https://github.com/WinampDesktop/winamp/tree/20d28e80a5c861a9d5f449ea911ab75b4f37ad0d) after its publishing, you would have noticed some very intriguing things. For example, a `BuildTools` directory which included things like whole executable files the `7zip`, `git`, and other programs just hanging around, designated as "build tools". And although very odd indeed, these things seem more so _stupid_ than harmful.
 
-But there's much more there! Inside the repo there was proprietary code from Dolby, some questionably SDKs which Winamp may or may-not have the right to redistribute, and entire directory containing the commercial version of Qt, and so on, and so forth.
+But there's much more there! Inside the repo there was proprietary code from Dolby, some questionable SDKs which Winamp may or may-not have the right to redistribute, an entire directory containing the commercial version of Qt, some, admittedly expired, credentials, and so on, and so forth.
 
 ### Winamp did take some action
 
@@ -37,6 +37,8 @@ There are numerous pull requests [deleting said files](https://github.com/Winamp
 ### They deleted some of the commits
 
 OK well, if you just scroll around the commits history, you will notice that the commits that delete, for example the Dolby code is nowhere to be found. But in the end, that doesn't really do anything either, since you can still just go back in history to [a commit before they deleted it](https://github.com/WinampDesktop/winamp/commit/20d28e80a5c861a9d5f449ea911ab75b4f37ad0d), and just see it there.
+
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/content/images/2024/10/look-mum-im-a-criminal-now.jpg" class="kg-image" alt loading="lazy"/><figcaption>Does this count as distribution?</figcaption></figure>
 
 ### Ok, what can they do?
 
@@ -62,7 +64,7 @@ Now, to be fair - GitHub has an entire [docs section](https://docs.github.com/en
 
 ### So, what if GitHub clears the cache, and we delete the repo?
 
-Well, nothing. It has been already forked more than 2600 thousand times as of the time I'm writing this. It's out there on GitHub :) In the same [docs page](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository#about-sensitive-data-exposure) I linked above, GitHub themselves say that yeah - if someone has forked your repo, you're on your own, buddy.
+Well, nothing. It has been already forked more than 2600 thousand times as of the time I'm writing this. It's out there on GitHub :) A lot of the forks were even made before anything was deleted from the repo. So you don't even have to rely on cached commit hashes. In the same [docs page](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository#about-sensitive-data-exposure) I linked above, GitHub themselves say that yeah - if someone has forked your repo, you're on your own, buddy.
 
 If you remove the upstream repository of a repository network, GitHub simply [designates another fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility#deleting-a-public-repository) to be the upstream one. And all of that history and cached commits are still accessible through any of the forked repositories.
 
