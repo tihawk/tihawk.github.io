@@ -12,7 +12,7 @@ At this point, I think it's no secret that Winamp going "open-source" has been a
 
 The initial outrage on the repository was in response to the apparent lack of understanding of what open-source means on the side of Winamp, as they claim that their license is "[copyleft](https://www.gnu.org/licenses/copyleft.en.html)", while allowing for neither redistribution of modified versions, nor contributions to the official project, and initially not even [allowing forking](https://github.com/WinampDesktop/winamp/commit/64a51755c6f5d85039463c8bf7c2a9e98e862586)! Someone did [point it out](https://github.com/WinampDesktop/winamp/issues/6) to them that they can't ban forking on GitHub, as that constitutes [a violation of the TOS](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#5-license-grant-to-other-users). So, Winamp updated their license to allow forking, but it still doesn't allow anything else that would constitute "open-source" - redistribution or even outside contributions.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/static/content/images/2024/10/winamp-allowed-forking.jpg" class="kg-image" alt loading="lazy"/><figcaption>A truly historic moment, ladies and gentlemen :)</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/content/images/2024/10/winamp-allowed-forking.jpg" class="kg-image" alt loading="lazy"/><figcaption>A truly historic moment, ladies and gentlemen :)</figcaption></figure>
 
 In objective terms, this license falls in the category of "source-available" rather than open-source, and this *is* an important distinction to make. I have no problem with Winamp making their source available as a valuable case-study, but they really shouldn't have used the term "copyleft" if that is the intention.
 
@@ -54,7 +54,7 @@ Additionally, GitHub caches commits, so that they can be accessed by other repos
 
 So, not only are the deleted commits potentially visible inside of forks that may have this commit from before it was deleted in the upstream repository. No, they are also just visible in general, as long as you know the commit hash. GitHub simply caches them, and you can just visit the page for that commit, and see all the changes it has made, and the entire code-base at that point in history.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/static/content/images/2024/10/github-deleted-commit.jpg" class="kg-image" alt loading="lazy"/><figcaption>You can still see deleted commits on GitHub</figcaption></figure>
+<figure class="kg-card kg-image-card kg-card-hascaption"><img src="/content/images/2024/10/github-deleted-commit.jpg" class="kg-image" alt loading="lazy"/><figcaption>You can still see deleted commits on GitHub</figcaption></figure>
 
 So, even if you rebase your repository, the commits history is still there, cached and awaiting. And all forks that were made before the rebase, you can just peruse those anyway.
 
