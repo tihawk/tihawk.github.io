@@ -16,7 +16,7 @@ function AppCard({name, description, tags, url}: AppCardPropsI) {
         <div className="card__header">
           <h2>{name}</h2>
         </div>
-        <div className="card__body">
+        <div style={{height: "100%"}} className="card__body">
           {description}
         </div>
         <div className="card__footer">
@@ -32,26 +32,41 @@ function AppCard({name, description, tags, url}: AppCardPropsI) {
 function AppsPage() {
   return (
     <Layout
-      title="Kiril's apps"
+      title="Kiril's projects"
 
     >
       <div className="container margin-vert--lg">
         <div className="row">
           <div className="col col--12">
-            <h1 className="hero__title">Crafted for you</h1>
+            <h1 className="hero__title">Some fun stuff I've made</h1>
           </div>
         </div>
         <div className="row">
           <div className="col col--6 margin-bottom--lg">
-            <AppCard name="PushFitnotes Desktop" description="Upload Fitnotes workouts to Garmin" tags={['windows', 'linux', 'free']} url="/push-fitnotes" />
+            <AppCard name="PushFitnotes Desktop"
+            description="Upload Fitnotes workouts to Garmin"
+            tags={['windows', 'linux', 'free']}
+            url="/push-fitnotes" />
           </div>
           <div className="col col--6 margin-bottom--lg">
-            <AppCard name="PushFitnotes Android" description="Upload Fitnotes workouts to Garmin, but from your phone" tags={['android', 'coming-soon']} url="/push-fitnotes-android" />
+            <AppCard name="PushFitnotes Android"
+            description="Upload Fitnotes workouts to Garmin, but from your phone"
+            tags={['android', 'coming-soon']}
+            url="/push-fitnotes-android" />
           </div>
         </div>
         <div className="row">
           <div className="col col--6 margin-bottom--lg">
-            <AppCard name="Fitnotes2Fit CLI" description="A CLI tool for converting Fitnotes workouts into .fit files" tags={['cli', 'cross-platform', 'free']} url="https://github.com/tihawk/fitnotes2fit" />
+            <AppCard name="Fitnotes2Fit CLI"
+            description="A CLI tool for converting Fitnotes workouts into .fit files"
+            tags={['cli', 'cross-platform', 'free']}
+            url="https://github.com/tihawk/fitnotes2fit" />
+          </div>
+          <div className="col col--6 margin-bottom--lg">
+            <AppCard name="Neovim plugin MDWA"
+            description="A Neovim plugin to help you get over that writing block by forcing you to write nonstop for some time...lest you lose all you've written."
+            tags={['tui', 'neovim', 'free', 'plugin']}
+            url="https://github.com/tihawk/mdwa.nvim" />
           </div>
         </div>
       </div>

@@ -2,6 +2,13 @@
   color: inherit;
   text-decoration: none;
   font-weight: inherit;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.cleanLink div {
+  height: 100%;
 }
 
 .cardWithShadow {
