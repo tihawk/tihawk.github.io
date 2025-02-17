@@ -52,7 +52,9 @@ Remember how I said that they deleted some of the commits from their history, so
 
 You see, to facilitate collaboration through forking, GitHub introduces something called a "[repository network](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/understanding-connections-between-repositories#viewing-a-repositorys-network)". This network holds information of the "upstream" or parent repository, all of its forks, and all the commits that belong to each fork.
 
-Additionally, GitHub caches commits, so that they can be accessed by other repositories in the repository network. [As explained](https://news.ycombinator.com/item?id=41060102) by GitHub themselves, "GitHub stores the parent repository along with forks in a "repository network". It is a known behavior that objects from one network member are readable via other network members. Blobs and commits are stored together, while refs are stored separately for each fork. This shared storage model is what allows for pull requests between members of the same network.".
+Additionally, GitHub caches commits, so that they can be accessed by other repositories in the repository network. As explained by [Github themselves](https://news.ycombinator.com/item?id=41060102):
+
+> GitHub stores the parent repository along with forks in a "repository network". It is a known behavior that objects from one network member are readable via other network members. Blobs and commits are stored together, while refs are stored separately for each fork. This shared storage model is what allows for pull requests between members of the same network.
 
 So, not only are the deleted commits potentially visible inside of forks that may have this commit from before it was deleted in the upstream repository. No, they are also just visible in general, as long as you know the commit hash. GitHub simply caches them, and you can just visit the page for that commit, and see all the changes it has made, and the entire code-base at that point in history.
 
