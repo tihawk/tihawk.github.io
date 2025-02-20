@@ -1,6 +1,6 @@
 ---
 slug: on-shebangs-being-funky
-title: On shebangs, and their funky behvaiour
+title: On shebangs, and their funky behaviour
 description: Shebangs, or interpreter directives have been around since the '80s. They help select interpreters for the little scripts we write. But I realised I've never really looked into why am I writing this magic line of nonsense in the beginning of scripts. And of course, what are its limitations and/or weird associated behaviours we can make use of?
 authors: kiroki
 tags: [Coding, Scripting, Programming, Linux]
@@ -39,7 +39,7 @@ $
 
 ## Interpreters, you say
 
-If you've also written Python scripts, you surely have seen that you can pass a shebang to the python script as well. Since Python is an interpreted language, it actually works in precisely the same way w.r.t. the shebang line. You can simply write `#!/usr/bin/env python3` at the top of your script, make it executable, and suddenly the program loader knows to run the python interpreter, and pass your script location as an argument.
+If you've also written Python scripts, you surely have seen that you can pass a shebang to the python script as well. Since Python is an interpreted language, it actually works in precisely the same way w.r.t. the shebang line. You can simply write `#!/usr/bin/env python3` at the top of your script, make it executable, and suddenly the program loader knows to run the python interpreter and pass your script location as an argument.
 
 ```python title="test.py"
 #!/usr/bin/env python3
@@ -55,7 +55,7 @@ Hello from the Python interpreter
 
 ### Well, JavaScript is interpreted too
 
-Oh, how right you are! For some reason it never occured to me before, but since JavaScript is also a non-compiled, interpreted language, we should be able to make any scripts written in JS int executable files by providing a shebang line to it with some JS runtime like *node* or *bun*, right?
+Oh, how right you are! For some reason it never occured to me before, but since JavaScript is also a non-compiled, interpreted language, we should be able to make any scripts written in JS into executable files by providing a shebang line to it with some JS runtime like *node* or *bun*, right?
 
 ```javascript title="test.js"
 #!/usr/bin/env node
