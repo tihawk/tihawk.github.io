@@ -175,7 +175,7 @@ Yep, we got it down. We can just call random executable files from within the sh
 The last thing I wanted to showcase, is the fact that you keep passing the shebang arguments down the chain of calls. Let's do one final experiment
 
 ```javascript title="bangbang.js"
-``#! /usr/bin/env -S BANG="He\_wore\_black\_and\_I\_wore\_white" node
+#! /usr/bin/env -S BANG="He\_wore\_black\_and\_I\_wore\_white" node
 console.log([...process.argv, process.env.BANG, "He would always win the fight"])
 ```
 
