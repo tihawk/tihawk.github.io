@@ -148,6 +148,19 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Feed',
+            items: [
+              {
+                label: 'RSS',
+                href: 'https://kblagoev.com/blog/rss.xml',
+              },
+              {
+                label: 'Atom',
+                href: 'https://kblagoev.com/blog/atom.xml',
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Kiril Panayotov Blagoev`,
       },
