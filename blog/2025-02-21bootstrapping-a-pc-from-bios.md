@@ -4,6 +4,7 @@ title: The Monitor - Bootstrapping a PC from BIOS
 description: You're trapped in a basement. You have a computer, but it doesn't have an operating system. You have a floppy disk with a boot sector. What's on that floppy disk, so it can help you get out of this predicament? Let's McGyver ourselves out of this situation!
 authors: kiroki
 tags: [OS-Development, BIOS-to-OS, Low-Level]
+image: https://kblagoev.com/content/images/2025/02/hi-wilson.jpg
 ---
 
 ## A long preamble
