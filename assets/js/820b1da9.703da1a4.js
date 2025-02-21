@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1258],{2244:e=>{e.exports=JSON.parse('{"label":"OS-Development","permalink":"/blog/tags/os-development","allTagsPath":"/blog/tags","count":1}')}}]);
