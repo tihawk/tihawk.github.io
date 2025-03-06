@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7834],{3436:(e,s,i)=>{i.r(s),i.d(s,{default:()=>c});var l=i(77),t=(i(6540),i(4848));const c=function(){return(0,t.jsx)(l.A,{children:(0,t.jsx)("div",{style:{height:"100vh",display:"flex"},children:(0,t.jsx)("iframe",{scrolling:"no",style:{flex:1},src:"/vicsek/vicsek.html"})})})}}}]);

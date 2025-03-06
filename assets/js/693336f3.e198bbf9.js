@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7052],{6127:s=>{s.exports=JSON.parse('{"label":"BIOS-to-OS","permalink":"/blog/tags/bios-to-os","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
