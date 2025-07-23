@@ -57,6 +57,7 @@ const config = {
           showReadingTime: true,
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'All posts',
+          blogListComponent: '@theme-original/BlogListPage'
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -65,6 +66,23 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'snip',
+        path: './snip',
+        remarkPlugins: [math],
+        rehypePlugins: [katex],
+        showReadingTime: false,
+        routeBasePath: 'snip',
+        blogSidebarCount: 'ALL',
+        blogSidebarTitle: 'Snippets and Kleinigkeiten',
+        blogListComponent: '@theme/SnipListPage'
+      }
     ],
   ],
 
@@ -164,6 +182,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Kiril Panayotov Blagoev`,
       },
       prism: {
+        additionalLanguages: ['bash', 'shell-session', 'systemd'],
         theme: themes.github,
         darkTheme: themes.dracula,
       },
