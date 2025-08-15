@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2591],{6971:s=>{s.exports=JSON.parse('{"label":"bash","permalink":"/snip/tags/bash","allTagsPath":"/snip/tags","count":20,"unlisted":false}')}}]);

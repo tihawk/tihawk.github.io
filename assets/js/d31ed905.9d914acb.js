@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2422],{9291:e=>{e.exports=JSON.parse('{"label":"docker","permalink":"/snip/tags/docker","allTagsPath":"/snip/tags","count":1,"unlisted":false}')}}]);

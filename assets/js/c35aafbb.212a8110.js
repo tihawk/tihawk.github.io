@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1226],{8931:e=>{e.exports=JSON.parse('{"label":"lowlevel","permalink":"/snip/tags/lowlevel","allTagsPath":"/snip/tags","count":10,"unlisted":false}')}}]);

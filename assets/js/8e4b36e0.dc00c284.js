@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8124],{7341:e=>{e.exports=JSON.parse('{"label":"maven","permalink":"/snip/tags/maven","allTagsPath":"/snip/tags","count":1,"unlisted":false}')}}]);

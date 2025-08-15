@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4901],{190:s=>{s.exports=JSON.parse('{"label":"assembly","permalink":"/snip/tags/assembly","allTagsPath":"/snip/tags","count":6,"unlisted":false}')}}]);

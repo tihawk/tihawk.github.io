@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3923],{6166:e=>{e.exports=JSON.parse('{"label":"emulation","permalink":"/snip/tags/emulation","allTagsPath":"/snip/tags","count":1,"unlisted":false}')}}]);
